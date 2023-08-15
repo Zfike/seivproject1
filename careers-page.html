@@ -19,16 +19,70 @@
 
 <br>
 
-<h1>Careers Page</h1>
+<h1>Careers in Computer Science</h1>
+<div class = "text_block">
+<p1>
+    Someone who graduates with a degree in the field of computer science can have many different job
+    titles in the industry. Building software, managing online databases, protecting your clients from 
+    a cyber attack, and maximizing computer effecieny are just a few examples of where this degree could take you.
+    Click on one of the job names listed below to learn more about each job title in greater detail!
+</p1>
+</div>
 
 <br>
 
 <ul>
-    <li><a href="se-page.html"><p>Software Engineer</p></a></li>
-    <li><a href="da-page.html"><p>Database Administrator</p></a></li>
-    <li><a href="cs-page.html"><p>Cyber Security</p></a></li>
-    <li><a href="ca-page.html"><p>Computer Architect</p></a></li>
+ 
+
+   
+   
 </ul>
+
+<button class="accordion">Computer Architect</button>
+        <div class="panel">
+            <p><ul class="c">Computer scientists with a focus on designing and analyzing 
+                the overall structure and functionality of computer systems. Click 
+                <a href="ca-page.html">here </a>to learn more about computer architects!</ul> </p>
+        </div>
+
+        <button class="accordion">Database Administrator</button>
+        <div class="panel">
+            <ul class="c">  <p>A database administrator is a computer scientist that has a specialization in working with databases.
+                They will maintain, install, and handle any other problems a database might have. Click
+                <a href="da-page.html">here </a></a> to learn more about database administrators!</ul></p>
+        </div>
+
+        <button class="accordion">Cybersecurity</button>
+        <div class="panel">
+            <ul class="c">  <p>Cybersecurity professionals are computer scientists who specialize in 
+                the protection of their clients technology and data. Click 
+                <a href="cs-page.html">here </a>to learn more about cybersecurity professionals!</a></ul></p>
+        </div>
+
+        <button class="accordion">Software Engineer</button>
+        <div class="panel">
+          <ul class="c"><p> Software engineers are computer scientists who specialize in writing computer programs. Click 
+            <a href="se-page.html">here </a>to learn more about software engineers!</ul></p>
+        </div>
+   
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {
+                panel.style.display = "block";
+                }
+            });
+            }
+        </script>
+
 
 
 </body>
