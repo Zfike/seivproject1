@@ -32,8 +32,6 @@ div.text_block {
   line-height: 1.6;
 }
 
-/*  */
-
 .nav {
     list-style: none;
     margin: 0;
@@ -56,11 +54,11 @@ div.text_block {
 .nav li:hover {
 background-color: #111;
 }
+
 ul.c {
   margin: 0 auto;
   font-size: 20px;
 }
-
 
 .accordion {
   background-color: #333;
@@ -91,6 +89,3 @@ ul.c {
  margin-left: 180px;
  margin-right: 143px;
 }
-
-
-
