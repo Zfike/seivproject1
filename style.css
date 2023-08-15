@@ -54,6 +54,11 @@ a:visited {
     text-decoration: underline;
 }
 
+a.b_jm {
+  color: blue;
+  text-decoration: none;
+}
+
 div.text_heading {
     text-align: center;
 }
