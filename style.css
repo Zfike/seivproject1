@@ -16,7 +16,7 @@ body {
 a:link
 a:visited {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 div.text_heading {
@@ -28,7 +28,8 @@ div.text_block {
   padding: 20 20;
   width: 75%;
   text-align:left; 
-  font-size: 12px;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 /*  */
@@ -55,3 +56,41 @@ div.text_block {
 .nav li:hover {
 background-color: #111;
 }
+ul.c {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+
+.accordion {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 75%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.7s;
+ margin-left: 180px;
+
+}
+
+.active, .accordion:hover {
+  background-color: grey; 
+  color: black;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: grey;
+  overflow: hidden;
+ color: black;
+ margin-left: 180px;
+ margin-right: 143px;
+}
+
+
+
