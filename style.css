@@ -137,3 +137,10 @@ ul.c {
  margin-left: 180px;
  margin-right: 143px;
 }
+
+.textblock_jd {
+  max-width: 90%;
+  padding: 20px;
+  margin: 0 20px;
+  text-align: left;
+}
