@@ -138,6 +138,12 @@ ul.c {
  margin-right: 143px;
 }
 
+.textblock_jd {
+  max-width: 90%;
+  padding: 20px;
+  margin: 0 20px;
+  text-align: left;
+  
 .img1_jm {
   display: block;
   margin: 0 auto; /* Center the image horizontally */
