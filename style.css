@@ -79,6 +79,15 @@ div.life_text_block_zf {
   text-align: left;
 }
 
+.center_container_zf {
+  display: grid;
+  place-items: center;
+  /* height: 100vh; */
+}
+
+.centered_element_zf {
+  /* Additional styling for the centered element */
+}
 
 .nav {
     list-style: none;
