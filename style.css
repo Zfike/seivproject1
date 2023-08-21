@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+  }
+
+  h1 {
+    text-align:center; 
+  }
+
+  h4 {
+    text-align:center; 
+  }
+
+  .life_p_zf {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .life_ul_zf {
+    list-style-type: circle;
+    list-style-position: inside;
+    position: relative;
+    padding: 10px 20px 10px 8px;
+    background: #333;
+    display: inline-block;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.life_ul_zf li {
+  padding-left: 20px;
+}
+
+.life_button_zf {
+  background-color: #333;
+  border: none;
+  border-radius: 5px; /* Adjust the value for more/less rounding */
+  margin: auto;
+  width: 150px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.life_button_zf:hover{
+  background-color: #515151;
+}
+
+  a,
+a:link
+a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+a.b_jm {
+  color: blue;
+  text-decoration: none;
+}
+
+div.text_heading {
+    text-align: center;
+}
+
+div.text_block {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 90%;
+  text-align: left; 
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+div.life_text_block_zf {
+  max-width: 90%;
+  padding: 20px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.center_container_zf {
+  display: grid;
+  place-items: center;
+  /* height: 100vh; */
+}
+
+.centered_element_zf {
+  /* Additional styling for the centered element */
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.nav li:hover {
+background-color: #111;
+}
+
+ul.c {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.accordion {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 75%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.7s;
+ margin-left: 180px;
+
+}
+
+.active, .accordion:hover {
+  background-color: grey; 
+  color: black;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: grey;
+  overflow: hidden;
+ color: black;
+ margin-left: 180px;
+ margin-right: 143px;
+}
+
+.textblock_jd {
+  max-width: 90%;
+  padding: 20px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.img1_jm {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio of the image */
+  border: 2px solid #333; /* Add a border around the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
